@@ -1,2 +1,2 @@
 # SolditiyCode
-Git repository containing the different codes used for the Benchmark
+répertoire Git contenant les différents codes source utilisés pour le comparatif des outils d'analyse des contrats intelligents pour le langage Solidity d'Etherium.
