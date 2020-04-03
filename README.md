@@ -18,14 +18,14 @@ répertoire Git contenant les différents codes source utilisés pour le compara
   5.	Securify (Analyse statique) : https://securify.chainsecurity.com/
   
 ### Autres outils : 
-  1.	Echidna (Fuzzer):   https://github.com/crytic/echidna
+  1. Echidna (Fuzzer):   https://github.com/crytic/echidna
   2. Solidity Visual Auditor: (Visualisation): https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor
   3. Solhint (Linter): https://protofire.github.io/solhint/
   
 ## 2. Logique Solidity :
-•	Documentation officielle : https://solidity.readthedocs.io/en/v0.6.4/
-•	Tutoriel Solidity : https://www.youtube.com/watch?v=ipwxYa-F1uY
- 
+  1. Documentation officielle : https://solidity.readthedocs.io/en/v0.6.4/
+  2. Tutoriel Solidity : https://www.youtube.com/watch?v=ipwxYa-F1uY
+
 ## 3. Failles à étudier : 
   1. Visibilité des fonctions et variables par défaut (SWC100 et SWC 108)
   2. Retrait d'éther non protégé (SWC 105) 
