@@ -4,7 +4,7 @@
  * Modified by Gerhard Wagner
  */
 
-pragma solidity 0.6.4;
+pragma solidity ^0.4.24;
 
 contract MyContract {
 
@@ -14,7 +14,7 @@ contract MyContract {
         owner = msg.sender;
     }
 
-    function sendTo(address payable receiver, uint amount) public {
+    function sendTo(address receiver, uint amount) public {
       require(msg.sender == owner);
       receiver.transfer(amount);
     }
