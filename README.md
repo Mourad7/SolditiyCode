@@ -1,2 +1,35 @@
 # SolditiyCode
 répertoire Git contenant les différents codes source utilisés pour le comparatif des outils d'analyse des contrats intelligents pour le langage Solidity d'Etherium.
+
+# Plan d'action : 
+  1.	Choix des outils à étudier
+  2.	Comprendre la logique du langage Solidity
+  3.	Identifier les failles de sécurités à étudier et les classifier :
+  4.	Produire des exemples de codes contenant ces failles
+  5.	Présenter le fonctionnement des différents outils (Approches, stratégies, mécanismes)
+  6.	Etudier et comparer le comportement des outils par apport aux failles sélectionnées sur plusieurs critères
+  7. Enjeux de la détection des bogues pour la sécurité des contrats intelligents
+
+# Outils d'analyse statiques et dynamiques: 
+  1.	SmartCheck (Analyse statique) : https://github.com/smartdec/smartcheck
+  2.	Slither (Analyse statique) : https://github.com/crytic/slither
+  3.	Myhtril (Interprétation symbolique) : https://github.com/ConsenSys/mythril
+  4.	Manticore (Interprétation symbolique) : https://github.com/trailofbits/manticore
+  5.	Securify (Analyse statique) : https://securify.chainsecurity.com/
+  
+# Autres outils : 
+  1.	Echidna (Fuzzer):   https://github.com/crytic/echidna
+  2. Solidity Visual Auditor: (Visualisation): https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor
+  3. Solhint (Linter): https://protofire.github.io/solhint/
+  
+# Failles à étudier : 
+  3.1 Visibilité des fonctions et variables par défaut (SWC100 et SWC 108)
+  3.2 Retrait d'éther non protégé (SWC 105) 
+  3.3 Autorisation via tx.origin (SWC 115) 
+  3.4 Utilisation des fonctions Solidity dépréciées (SWC 111)
+  3.5 Dépendance de l’horodatage -Timestamp- (SWC 116)
+  3.6 Faibles sources de génération d’attributs aléatoires (SWC 120)
+  3.7 Attaque d’adresse courte
+  3.8 Ether perdu type
+
+ 
