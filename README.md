@@ -28,12 +28,15 @@ répertoire Git contenant les différents codes source utilisés pour le compara
 
 ## 3. Failles à étudier : 
   1. Visibilité des fonctions et variables par défaut (SWC100 et SWC 108)
-  2. Retrait d'éther non protégé (SWC 105) 
-  3. Autorisation via tx.origin (SWC 115) 
-  4. Utilisation des fonctions Solidity dépréciées (SWC 111)
-  5. Dépendance de l’horodatage -Timestamp- (SWC 116)
-  6. Faibles sources de génération d’attributs aléatoires (SWC 120)
-  7. Attaque d’adresse courte
-  8. Ether perdu type
+  2. Retrait d'éther non protégé (SWC 105)
+  3. Réentrance (SWC 107)
+  4. Autorisation via tx.origin (SWC 115)
+  5. Version du compilateur flottante (SWC 103)
+  6. Utilisation des fonctions Solidity dépréciées (SWC 111)
+  7. Dépendance de l’horodatage -Timestamp- (SWC 116)
+  8. Faibles sources de génération d’attributs aléatoires (SWC 120)
+  9. Attaque d’adresse courte
+  10. Ether perdu type
+  11. Schémas de Ponzi
 
  
