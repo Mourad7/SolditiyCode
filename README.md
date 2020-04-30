@@ -26,7 +26,7 @@ répertoire Git contenant les différents codes source utilisés pour le compara
   1. Documentation officielle : https://solidity.readthedocs.io/en/v0.6.4/
   2. Tutoriel Solidity : https://www.youtube.com/watch?v=ipwxYa-F1uY
 
-## 3. Failles à étudier : 
+## 3. Failles à étudier : Les déscriptions sont disponibles dans les sous-dossiers
   1. Visibilité des fonctions et variables par défaut (SWC100 et SWC 108)
   2. Retrait d'éther non protégé (SWC 105)
   3. Réentrance (SWC 107)
