@@ -1,4 +1,4 @@
-# Réentrance (SWC-107)
+# Réentrance (SWC-107) :
 
 L'un des principaux dangers d'appeler des contrats externes est qu'ils peuvent prendre en charge le flux de contrôle. Dans l'attaque de réentrance (aka attaque d'appel récursive), un contrat malveillant rappelle dans le contrat appelant avant la fin du premier appel de la fonction. Cela peut provoquer des interactions indésirables entre les différentes invocations de la fonction.
 
