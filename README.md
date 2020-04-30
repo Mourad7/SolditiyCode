@@ -38,5 +38,7 @@ répertoire Git contenant les différents codes source utilisés pour le compara
   9. Attaque d’adresse courte
   10. Ether perdu type
   11. Schémas de Ponzi
-
+  
+### Classification
+![](Classification.JPG)
  
